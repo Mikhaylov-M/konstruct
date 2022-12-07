@@ -196,18 +196,6 @@
         font-size: 30px;
         line-height: 45px;
     }
-}
-
-@media (max-width: 390px) {
-    .container {
-        max-width: 370px;
-    }
-    .hero {
-        padding: 41px 20px 75px;
-    }
-    .hero__title {
-        text-align: center;
-    }
     .about {
         padding: 20px 0;
     }
@@ -222,5 +210,17 @@
     }
     .newsletter__btn {
         max-width: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        max-width: 370px;
+    }
+    .hero {
+        padding: 41px 20px 75px;
+    }
+    .hero__title {
+        text-align: center;
     }
 }
